@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 25</title>
+
+    <link rel="stylesheet" href="Styles/Cau25.css">
+</head>
+
+<body>
+
+    <div class="thucdon">
+
+        <h2>THỰC ĐƠN</h2>
+
+        <table>
+
+            <tr>
+                <th>Thức ăn</th>
+                <th>Nước uống</th>
+                <th>Thời điểm</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <select id="thucAn" multiple size="7">
+                        <option value="20000">Bún bò</option>
+                        <option value="18000">Hủ tiếu</option>
+                        <option value="17000">Bánh canh</option>
+                        <option value="19000">Phở bò</option>
+                        <option value="15000">Nuôi</option>
+                        <option value="12000">Bánh mì thịt</option>
+                        <option value="15000">Bánh cuốn</option>
+                    </select>
+                </td>
+
+                <td>
+                    <select id="nuocUong" multiple size="7">
+                        <option value="12000">Cà phê đá</option>
+                        <option value="15000">Cà phê sữa</option>
+                        <option value="13000">Chanh dây</option>
+                        <option value="12000">Chanh muối</option>
+                        <option value="14000">Xí muội</option>
+                        <option value="13000">Sữa tươi</option>
+                        <option value="17000">Cam vắt</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input type="radio" name="thoiDiem" value="ngay" checked>
+                    Ban ngày
+
+                    <br><br>
+
+                    <input type="radio" name="thoiDiem" value="dem">
+                    Ban đêm
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <input type="button" value="Tính tiền" onclick="tinhTien()">
+                </td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <table id="bangKetQua">
+
+            <tr>
+                <th>Các món đã dùng</th>
+                <th>Tiền</th>
+            </tr>
+
+            <tbody id="ketqua"></tbody>
+
+        </table>
+
+    </div>
+
+    <script src="Scripts/Cau25.js"></script>
+
+</body>
+
+</html>

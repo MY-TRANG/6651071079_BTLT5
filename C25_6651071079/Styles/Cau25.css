@@ -1,0 +1,36 @@
+.thucdon {
+    width: 520px;
+    margin: 20px auto;
+    background-color: #d0dded;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #cde6ec;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+select {
+    width: 150px;
+}
+
+#bangKetQua {
+    background-color: #d7f4de;
+}
+
+#bangKetQua td {
+    padding: 3px;
+}
