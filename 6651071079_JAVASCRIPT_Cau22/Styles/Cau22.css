@@ -1,0 +1,13 @@
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+input[type="number"] {
+    width: 150px;
+}
+
+#ketqua {
+    font-size: 20px;
+}
