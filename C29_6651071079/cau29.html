@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Return first and last name from a form</title>
+    <!-- Liên kết tới file CSS trong thư mục Styles -->
+    <link rel="stylesheet" href="Styles/cau29.css">
+</head>
+
+<body>
+
+    <h2>Thông tin Họ và Tên</h2>
+
+    <!-- Form theo mã nguồn đề bài -->
+    <form id="form1" onsubmit="getFormvalue(event)">
+        First name: <input type="text" name="fname" value="David"><br>
+        Last name: <input type="text" name="lname" value="Beckham"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Thẻ hiển thị kết quả sau khi Submit -->
+    <div id="result"></div>
+
+    <!-- Liên kết tới file JavaScript trong thư mục Scripts -->
+    <script src="Scripts/cau29.js"></script>
+</body>
+
+</html>
