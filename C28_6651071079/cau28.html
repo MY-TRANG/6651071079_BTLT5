@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JS DOM paragraph style</title>
+    <!-- Liên kết tới file CSS trong thư mục Styles -->
+    <link rel="stylesheet" href="Styles/cau28.css">
+</head>
+
+<body>
+
+    <h2>Bảng tùy chỉnh giao diện văn bản</h2>
+
+    <!-- Bảng tùy chỉnh cho người dùng chọn và tương tác -->
+    <div class="control-panel">
+        <div class="control-group">
+            <label for="fontSizeSelect">Cỡ chữ (fontSize):</label>
+            <select id="fontSizeSelect">
+                <option value="16px">16px</option>
+                <option value="20px">20px</option>
+                <option value="24px">24px</option>
+                <option value="30px">30px</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label for="fontFamilySelect">Phông chữ (fontFamily):</label>
+            <select id="fontFamilySelect">
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="'Times New Roman', serif">Times New Roman</option>
+                <option value="'Courier New', monospace">Courier New</option>
+                <option value="Verdana, sans-serif">Verdana</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label for="colorPicker">Màu chữ (color):</label>
+            <input type="color" id="colorPicker" value="#000000">
+        </div>
+    </div>
+
+    <!-- Đoạn văn bản mẫu theo đề bài -->
+    <p id="text">JavaScript Exercises - w3resource</p>
+
+    <div>
+        <button id="jsstyle" onclick="js_style()">Style (Áp dụng)</button>
+    </div>
+
+    <!-- Liên kết tới file JavaScript trong thư mục Scripts -->
+    <script src="Scripts/cau28.js"></script>
+</body>
+
+</html>

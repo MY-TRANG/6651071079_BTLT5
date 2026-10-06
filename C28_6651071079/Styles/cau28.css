@@ -1,0 +1,57 @@
+/* Định dạng chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Bảng tùy chỉnh */
+.control-panel {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.control-group {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-group label {
+    font-weight: bold;
+}
+
+.control-group select, 
+.control-group input[type="color"] {
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Đoạn văn bản hiển thị */
+#text {
+    padding: 15px;
+    border: 1px dashed #aaa;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Nút bấm Submit / Style */
+#jsstyle {
+    padding: 8px 16px;
+    font-size: 15px;
+    background-color: #abbfd4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#jsstyle:hover {
+    background-color: #152332;
+}
